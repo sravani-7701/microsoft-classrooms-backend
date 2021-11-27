@@ -127,7 +127,7 @@ app.use(require("./routes/mailer.js"));
 app.use(require("./routes/login"));
 app.use(require("./routes/signup"));
 app.get('/getcookie',(req, res)=>{
-	res.send(req.cookies);
+	res.status(200).send(req.cookies);
 
 })
 const PORT=process.env.PORT||5000;
