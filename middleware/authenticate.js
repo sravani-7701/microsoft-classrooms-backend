@@ -17,7 +17,7 @@ const authenticate= async (req, res, next)=>{
      }
      catch(err){
         console.log(err);
-        res.status(401).send("unauthorized");
+        res.status(401).send(err);
      }
 }
 module.exports=authenticate;
