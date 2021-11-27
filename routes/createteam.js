@@ -44,8 +44,8 @@ router.post('/student',async(req,res)=>{
       const r=await User.findOneAndUpdate({email:email},{$push:{teams:objectId}},{new: true, useFindAndModify: false});
       return res.status(200).json({message:"success"});
     }
-    catch(err){
-       console.log(err);
+    catch(error){
+       console.log(error);
     }
 })
    

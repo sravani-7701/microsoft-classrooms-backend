@@ -126,10 +126,7 @@ app.use(require("./routes/discussion.js"));
 app.use(require("./routes/mailer.js"));
 app.use(require("./routes/login"));
 app.use(require("./routes/signup"));
-app.get('/getcookie',(req, res)=>{
-	res.status(200).send(req.cookies);
 
-})
 const PORT=process.env.PORT||5000;
 server.listen(PORT,()=>{
     console.log(`listening on port ${PORT}`);

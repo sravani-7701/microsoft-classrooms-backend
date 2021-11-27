@@ -17,9 +17,9 @@ const authenticate= async (req, res, next)=>{
          req.userID=rootUser._id;
          next();
      }
-     catch(err){
-        console.log(err);
-        res.status(401).send(err);
+     catch(error){
+        console.log(error);
+        res.status(400).send(error);
      }
 }
 module.exports=authenticate;
