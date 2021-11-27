@@ -11,7 +11,11 @@ const methodOverrride=require('method-override');
 var cors = require('cors')
 var cookieParser = require('cookie-parser')
 app.use(cookieParser())
-app.use(cors())
+const corsConfig = {
+    credentials: true,
+    origin: true,
+};
+app.use(cors(corsConfig));
 app.use(express.json());
 app.use(methodOverrride('_method'));
 dotenv.config({path:"./config.env"});
