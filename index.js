@@ -117,8 +117,6 @@ io.on('connection', (socket) => {
 		}
 	})
 })
-app.use(require("./routes/signup"));
-app.use(require("./routes/login"));
 app.use(require("./routes/createteam"));
 app.use(require("./routes/about"));
 app.use(require("./routes/teamdetails"));
@@ -126,6 +124,12 @@ app.use(require("./routes/fileupload"));
 app.use(require("./routes/todo.js"));
 app.use(require("./routes/discussion.js"));
 app.use(require("./routes/mailer.js"));
+app.use(require("./routes/login"));
+app.use(require("./routes/signup"));
+app.get('/getcookie',(req, res)=>{
+	res.send(req.cookies);
+
+})
 const PORT=process.env.PORT||5000;
 server.listen(PORT,()=>{
     console.log(`listening on port ${PORT}`);

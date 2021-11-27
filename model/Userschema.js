@@ -25,13 +25,11 @@ const UserSchema=new mongoose.Schema({
         type:String,
         required: true,
     },
-    tokens:[
-        {
-            token:{
-                type:String,
-                required: true
-            }
-        }
+    tokens:[{
+    token:{
+         type:String,
+    }
+    } 
     ],
     teams:[
         {
