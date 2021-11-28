@@ -1,4 +1,4 @@
-# <p align ="center" >Microsoft Classrooms/p>
+# <p align ="center" >Microsoft Classrooms</p>
 ## <p align ="center" >One step solution for online classes.</p>
 
 <p align ="center" ><img src="https://ibb.co/Q94KH0p" height="350px" alt="Homepage"/></p>
