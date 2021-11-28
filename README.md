@@ -23,6 +23,7 @@
 * In the first week,I designed the plan,decided the techstack , learnt the socket.io and developed the calls featue and chat feature
 * In the second week, I added the feature of creating class,Activity,and Filesharing tab
 * In the third week, I added the assignment feature,Tasks creator feature and improved the UI
+<p align ="center" ><img src="https://imagizer.imageshack.com/v2/625x394q90/r/924/B1JDcQ.jpg" height="350px" alt="Agile"/></p>
 
 # Features :
 ## Landing page:
