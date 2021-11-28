@@ -2,7 +2,7 @@
 ## <p align ="center" >One step solution for online classes.</p>
 
 <p align ="center" ><img src="https://imagizer.imageshack.com/img922/2433/OT8f1H.png" height="350px" alt="Homepage"/></p>
-<p align ="center"> <a href="https://www.youtube.com/watch?v=WClPDBkZvZk">Presentation Video</a> | <a href="https://github.com/sravani-7701/microsoft-classrooms-client">Frontend code</a></p>
+<h1 align ="center"> <a href="https://www.youtube.com/watch?v=WClPDBkZvZk">Presentation Video</a> | <a href="https://github.com/sravani-7701/microsoft-classrooms-client">Frontend code</a></h1>
 ## Table of Contents 📕
 
 - [About the Challenge](#microsoft-engage-2021)
